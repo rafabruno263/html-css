@@ -1,0 +1,38 @@
+header{
+    background-color: lightgrey;
+    height: 60px;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    
+    margin: auto;
+    min-width: 300px;
+    max-width: 1200px;
+    width: 50vw;
+    min-height: 100vh;
+}
+main, span, #header-conteiner{
+    border: 1px solid;
+}
+
+#header-conteiner{
+    margin: auto;
+    min-width: 300px;
+    max-width: 1200px;
+    width: 50vw;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+#first-img{
+    min-width: 300px;
+    max-width: 1200px;
+    width: 50vw;
+}
