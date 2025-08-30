@@ -1,6 +1,6 @@
 header{
-    background-color: grey;
-   height: 60px;
+    background-color:#dcdcdc;
+   height: 80px;
 }
 
 body{
@@ -10,7 +10,7 @@ body{
 main{
    
     margin:auto;
-    min-width: 300px;
+    min-width: 560px;
     max-width: 1200px;
     width: 50vw;
     min-height: 100vh;
@@ -30,6 +30,12 @@ span,main, #header-conteiner {
     display:flex;
     align-items:center;
     justify-content: space-between;
+}
+
+#header-conteiner img{
+    width: 10;
+    height: 100%;
+    display: flex;
 }
 
 #first-img{
