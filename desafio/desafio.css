@@ -7,12 +7,12 @@ body{
 main{
     background-color: rgb(38, 38, 38);
     width: 50vw;
-    padding: 10px;
+    padding: var(--grid-gap);
     min-height: 100vh;
     margin: auto;
     color: white;
     display: grid;
-    gap: 15px;
+    gap: var(--grid-gap);
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(6, 1fr);
 }
@@ -46,4 +46,27 @@ header, section, footer{
     grid-column: span 3;
 }
 
+@media (max-width:400px){
+    main {
+        font-size: 7.5px;
+        color: darkred;
+    }
+}
 
+@media (min-width: 400px) and (max-width: 800px){
+    main {
+        font-size: 15px;
+        color: darkgreen;
+    }
+}
+
+@media (min-width:800px){
+    main {
+        font-size: 30px;
+        color: darkblue;
+    }
+}
+
+:root{
+    --grid-gap: 15px
+}
