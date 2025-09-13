@@ -1,0 +1,64 @@
+header{
+    background-color: #202434;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    padding-left: 20em;
+}
+
+body{
+    background-color: #181B26;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    color: #E4845E;
+    margin: auto;
+    width: 60vw;
+    flex-wrap: wrap;
+}
+
+a{
+    color: white;
+}
+
+nav{
+    padding-right: 20em;
+    display: flex;
+    justify-content: space-evenly;
+    width: 20%;
+}
+
+.filme{
+    width: 250px;
+}
+
+article{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.filme-container{
+    text-align: center;
+}
+
+.titulo{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    }
+
+table{
+    margin: auto;
+}
+
+table, tr, td{
+    border:solid white;
+    border-collapse: collapse;
+}
