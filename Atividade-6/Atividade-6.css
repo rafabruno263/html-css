@@ -90,4 +90,20 @@ button:hover {
 button:hover::after {
     transform: translateX(0);
     z-index: -1;
+
+}
+
+@media (max-width: 600px) {
+    body {
+        padding-top: 0;
+    }
+
+    header, form {
+        margin-bottom: 20px;
+    }
+
+    form {
+        padding: 1.5rem;
+        width: 100%;
+    }
 }
