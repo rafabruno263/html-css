@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfólio - Rafael Bruno</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="logo" href="#inicio">Rafael Bruno</a>
+
+    <button class="menu-btn" id="menuBtn" aria-label="Abrir menu" aria-controls="menu" aria-expanded="false">
+      Menu
+    </button>
+
+    <nav class="nav" id="menu">
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#experiencia">Experiência</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="inicio" class="container">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>Olá, eu sou Rafael Bruno</h1>
+        <p>
+          Desenvolvedor(a) em formação, Full-Stack. Gosto de criar interfaces
+          responsivas e projetos bem organizados usando HTML, CSS, JavaScript e Python.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn" href="#projetos">Ver projetos</a>
+          <a class="btn btn-outline" href="#contato">Fale comigo</a>
+        </div>
+
+        <div class="social">
+          <a href="https://github.com/rafabruno263/" target="_blank" rel="noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/rafael-bruno-971764287/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="https://instagram.com/rafabrunobh" target="_blank" rel="noreferrer">Instagram</a>
+        </div>
+      </div>
+
+      <div class="hero-card">
+        <img
+          class="avatar"
+          src="/Atividade-8/IMG_8342.JPG"
+          alt="Foto de perfil de Rafael Bruno"
+        />
+        <div class="mini-info">
+          <p><strong>Cidade:</strong> Belo Horizonte</p>
+          <p><strong>Email:</strong> rafabruno263@gmail.com</p>
+          <p><strong>Full-Stack:</strong> HTML, CSS, JS, Python</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="habilidades" class="section">
+      <div class="section-head">
+        <h2>Habilidades</h2>
+        <p>Principais tecnologias e competências que venho desenvolvendo.</p>
+      </div>
+
+      <div class="grid-4">
+        <article class="card">
+          <h3>Front-end</h3>
+          <ul>
+            <li>HTML semântico</li>
+            <li>CSS (Flexbox e Grid)</li>
+            <li>Responsividade (Media Queries)</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>JavaScript</h3>
+          <ul>
+            <li>DOM e eventos</li>
+            <li>Validação simples</li>
+            <li>Interatividade em componentes</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Python</h3>
+          <ul>
+            <li>Lógica de programação</li>
+            <li>Automação e scripts</li>
+            <li>Integração com banco de dados (SQLite, MySQL, MariaDB)</li>
+          </ul>
+        </article>
+
+        <article class="card">
+          <h3>Boas práticas</h3>
+          <ul>
+            <li>Organização de pastas</li>
+            <li>Reutilização de estilos</li>
+            <li>Acessibilidade básica</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section id="projetos" class="section">
+      <div class="section-head">
+        <h2>Projetos</h2>
+        <p>Alguns projetos que representam meu aprendizado e evolução.</p>
+      </div>
+
+      <div class="grid-3">
+        <article class="card project">
+          <h3>Landing Page</h3>
+          <p>Layout responsivo com Grid e seção de CTA.</p>
+          <div class="tags">
+            <span>HTML</span><span>CSS</span>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h3>Lista de Tarefas</h3>
+          <p>CRUD simples no navegador usando JavaScript.</p>
+          <div class="tags">
+            <span>JS</span><span>DOM</span>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h3>Portfólio</h3>
+          <p>Página pessoal com seções e formulário de contato.</p>
+          <div class="tags">
+            <span>Flex</span><span>Responsivo</span>
+          </div>
+        </article>
+
+        <article class="card project">
+          <h3>Sistema de Estoque</h3>
+          <p>CRUD com SQLite para cadastro e controle de produtos e vendas.</p>
+          <div class="tags">
+            <span>Python</span><span>SQLite</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="experiencia" class="section">
+      <div class="section-head">
+        <h2>Experiência</h2>
+        <p>Se você ainda não tem experiência profissional, use projetos, freelas ou estudos.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="item">
+          <h3>Estudante - Infinity School</h3>
+          <p class="muted">2025 - atual</p>
+          <p>Estudos focados em Pyhton, HTML, CSS (Flexbox/Grid) e JavaScript para web.</p>
+        </div>
+
+        <div class="item">
+          <h3>Projeto Pessoal - Site Responsivo</h3>
+          <p class="muted">2025</p>
+          <p>Criação de layout com seções, cards e adaptação para mobile.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="section">
+      <div class="section-head">
+        <h2>Contato</h2>
+        <p>Me envie uma mensagem. Eu respondo assim que possível.</p>
+      </div>
+
+      <div class="contact-wrap">
+        <div class="card contact-card">
+          <h3>Redes</h3>
+          <ul class="contact-list">
+            <li><strong>Email:</strong> rafabruno263@gmail.com</li>
+            <li><strong>GitHub:</strong> github.com/rafabruno263</li>
+            <li><strong>LinkedIn:</strong> linkedin.com/in/rafael-bruno-971764287</li>
+          </ul>
+        </div>
+
+        <form class="card form" id="contactForm">
+          <h3>Formulário</h3>
+
+          <label for="nome">Nome</label>
+          <input id="nome" name="nome" type="text" placeholder="Seu nome" required />
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" placeholder="seuemail@exemplo.com" required />
+
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem..." required></textarea>
+
+          <button class="btn" type="submit">Enviar</button>
+          <p class="form-msg" id="formMsg" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Rafael Bruno. Todos os direitos reservados.</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
